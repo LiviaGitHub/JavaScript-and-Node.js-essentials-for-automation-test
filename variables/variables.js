@@ -44,4 +44,5 @@ console.log(letRules + 'this will print [string] the last value');
 
 // Example: possible declare variables with none value.
 let noneValues
+// this will print [undefined]
 console.log(noneValues);
