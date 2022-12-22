@@ -1,0 +1,22 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "learning",
+  "keywords": [
+    "github",
+    "testing",
+    "automation testing",
+    "node",
+    "javascript",
+    "node for testing",
+    "javascript for testing",
+    "basic of javascript",
+    "basic of node"
+  ],
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Livia Bonifacio",
+  "license": "ISC"
+}
