@@ -1,4 +1,4 @@
-let age = Math.random() * 50;
+let age = Math.random() * (50 - 1) + 1;
 
 if (age >= 18) {
     // block scoping

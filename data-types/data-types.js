@@ -1,5 +1,5 @@
 /* 
-*  Data types available in JavaScrip
+*  Data types available in JavaScrip:
 *  1. String (e.g. 'hello')
 *  2. Number (e.g. '4. 10.5')
 *  3. Boolean (e.g. 'true | false')
@@ -43,3 +43,13 @@ console.log(`the type of str variable is ${typeof str}`);
 console.log(`the type of str variable is ${typeof re}`);
 console.log(`the type of str variable is ${typeof none}`);
 console.log(`the type of str variable is ${typeof null}`);
+
+/* 
+*  Falsy values:
+*  1. false
+*  2. undefined
+*  3. null
+*  4. 0
+*  5. NaN
+*  6. "" (empty string)
+*/

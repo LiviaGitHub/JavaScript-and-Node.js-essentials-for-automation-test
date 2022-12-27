@@ -46,3 +46,10 @@ console.log(letRules + 'this will print [string] the last value');
 let noneValues
 // this will print [undefined]
 console.log(noneValues);
+
+/*
+* Different Forms
+*/
+console.log(true); // Literals
+let bool = true // Variable
+console.log(typeof(5 < 10)); // Expression
