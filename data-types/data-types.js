@@ -32,7 +32,12 @@ let obj = {}
 let arr = []
 
 // Regexp
-let re = /abc/
+// The RegExp object is used for matching text with a pattern
+const re = /ab+c/i; // literal notation
+// OR
+const re2 = new RegExp('ab+c', 'i'); // constructor with string pattern as first argument
+// OR
+const re3 = new RegExp(/ab+c/, 'i'); // constructor with regular expression literal as first argument
 
 // Undefined, Null
 let none
