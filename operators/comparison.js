@@ -4,10 +4,10 @@
  * 2. === [strick equality operator: value + type]
  * 3. != [inequality operator]
  * 4. !== [strict inequality operator]
- * 5. >
- * 6. >=
- * 7. <
- * 8. <=
+ * 5. > [It is used to determine if one value is greater than another]
+ * 6. >= [It is used to determine if one value is greater than or equal to another]
+ * 7. < [It is used to determine if one value is less than another]
+ * 8. <= [It is used to determine if one value is less than or equal to another]
  * @returns boolean
  * 
  * @rules:
