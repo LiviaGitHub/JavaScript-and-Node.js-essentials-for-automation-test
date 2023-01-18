@@ -1,7 +1,7 @@
 /**
  * Logical Operator
  * 1. && [logical AND] operator indicates whether both operands are true.
- * 2. ||
+ * 2. || [OR]
  * 3. !
  * 
  * Two main purposes:
@@ -23,4 +23,13 @@ if (typeof val === "string" && val1.length >= 1){
     console.log(`value: ${val1} is valid string`);
 } else {
     console.log(`value: ${val1} is NOT valid string`);
+}
+
+// Use case 2: OR operator ||.
+
+let val2 = "Sunday"
+if (val2 === "Monday" || val2 === "Sunday"){
+    console.log(`value: ${val2} is a week day`);
+} else {
+    console.log(`value: ${val2} is NOT a week day`);
 }
