@@ -29,7 +29,14 @@ if (typeof val === "string" && val1.length >= 1){
 
 let val2 = "Sunday"
 if (val2 === "Monday" || val2 === "Sunday"){
-    console.log(`value: ${val2} is a week day`);
+    console.log(`value: ${val2} is a week day`); // result
 } else {
     console.log(`value: ${val2} is NOT a week day`);
+}
+
+let val3 = "Sunday"
+if (val3 === "Sunday" || val3 === 10){
+    console.log(`value: ${val3} is a week day`); // result
+} else {
+    console.log(`value: ${val3} is NOT a week day`);
 }
