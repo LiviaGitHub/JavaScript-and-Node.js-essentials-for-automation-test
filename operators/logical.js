@@ -2,7 +2,7 @@
  * Logical Operator
  * 1. && [logical AND] operator indicates whether both operands are true.
  * 2. || [OR]
- * 3. !
+ * 3. ! [NOT]
  * 
  * Two main purposes:
  * 1. In conditional statements (e.gh if... else ...)
@@ -39,4 +39,15 @@ if (val3 === "Sunday" || val3 === 10){
     console.log(`value: ${val3} is a week day`); // result
 } else {
     console.log(`value: ${val3} is NOT a week day`);
+}
+
+// Use case 3: NOT operator !.
+// The "!" operator is a logical operator that negates a Boolean value. 
+// It returns the opposite of the value that it operates on. 
+// For example, if a Boolean variable "x" is set to "true," then "!x" would return "false." 
+// If "x" is set to "false," then "!x" would return "true."
+
+let name = "Rob"
+if (!name){
+    console.log(`value: ${name} is NOT a valid data`);
 }
