@@ -62,3 +62,12 @@ if (condition1) {
     // code to be executed if condition1 is false
   }
   
+// Use case 5: if (!)
+// In JavaScript, the "!" operator is used to negate a boolean expression. 
+// This can be useful in an "if" statement to check if a condition is not met.
+let number = 10;
+if (!(number > 20)) {
+  console.log("The number is not greater than 20.");
+} else {
+  console.log("The number is greater than 20.");
+}
