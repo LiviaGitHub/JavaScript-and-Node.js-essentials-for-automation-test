@@ -72,6 +72,7 @@ if (condition1) {
 // Use case 5: if (!)
 // In JavaScript, the "!" operator is used to negate a boolean expression. 
 // This can be useful in an "if" statement to check if a condition is not met.
+
 let number = 10;
 
 if (!(number > 20)) {
@@ -88,6 +89,7 @@ if (!(number > 20)) {
 // In the inner condition, you can use the if...else statement to determine what action should be taken based on the result of the evaluation.
 // 
 // In this example, the inner condition if (x === 10) will only be executed if x < y is true.
+
 let x = 10;
 let y = 20;
 
@@ -138,6 +140,7 @@ for (let i = 0; i < numbers.length; i++) {
 // If a match is found (i.e., day is equal to "Sunday"), 
 // the code block associated with that case is executed (console.log("Today is Sunday")). 
 // If no match is found, the code in the default clause is executed (console.log("Invalid day")).
+
 let day = "Sunday";
 
 switch (day) {
