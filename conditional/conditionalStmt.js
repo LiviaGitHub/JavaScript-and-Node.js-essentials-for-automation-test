@@ -3,6 +3,7 @@
  * 1. if
  * 2. if (!)
  * 3. if and else
+ * 4. switch case
  * 
  */
 
