@@ -42,4 +42,5 @@ console.log(message); // Output: "Hello, Alice!"
 // In this example, the variable name is interpolated into the string using ${}. 
 // The resulting string is assigned to the variable message, 
 // which is then printed to the console using console.log(). 
-// Template literals are a more concise and readable way to declare strings with dynamic content than concatenation or string interpolation using the + operator
+// Template literals are a more concise and readable way to declare strings with dynamic content 
+// than concatenation or string interpolation using the + operator
