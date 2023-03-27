@@ -19,17 +19,14 @@ const str1 = "She said, \"Hello, how are you?\"";
 // and ending with another double quote.
 
 const str2 = 'He replied, \'I\'m doing well, thank you.\'';
-
 // 02 example: 
 // To use a backslash itself within a string, you need to escape it with another backslash:
 
 const str3 = "The path is C:\\Documents\\Files\\";
-
 // 03 example: 
 // You can also use a backslash to represent special characters such as newlines (\n), 
 // tabs (\t), and carriage returns (\r):
 
 const str4 = "First line\nSecond line";
 const str5 = "Name:\tJohn\tDoe\nAge:\t25";
-
 // In summary, the backslash character is used to escape characters within a string in JavaScript.
