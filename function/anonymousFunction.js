@@ -19,3 +19,19 @@ setTimeout(function() {
     console.log('Hello, world!');
   })();
   
+
+// Define a function expression and assign it to a variable named `add`
+const add = function(num1, num2) {
+    return num1 + num2;
+  };
+  
+// Call the `add` function
+const sum = add(2, 3); // sum is now 5
+
+// In this example, the function expression is assigned to a variable named add using the const keyword. 
+// The function takes two parameters num1 and num2, and it returns the sum of these two numbers.
+// After defining the add function, 
+// you can call it like any other function and assign the result to a variable named sum. 
+// The sum variable now holds the value 5, which is the result of adding 2 and 3 using the add function.
+// Assigning a function to a variable is useful because it allows you to pass the function around as a value, 
+// just like any other variable.
