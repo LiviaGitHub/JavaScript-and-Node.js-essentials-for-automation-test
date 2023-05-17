@@ -73,3 +73,5 @@ function increment(number, object) {
   console.log("After function call: myNumber =", myNumber, ", myObject =", myObject);
   // Output: After function call: myNumber = 10, myObject = { value: 21 }
   
+  // At function definition stage the required values to the function are called as parameters 
+  // and when the actual values are provided, they are called as as arguments
